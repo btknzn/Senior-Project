@@ -7,8 +7,8 @@ The project detects the amount of blink in spesific time and understand the mean
 
 <b>1.numpy</b>
 
-<b>cv2</b>
+<b>2.cv2</b>
 
-<b>math</b> 
+<b>3.math</b> 
 
-<b>time</b>
+<b>4.time</b>
