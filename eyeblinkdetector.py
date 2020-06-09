@@ -31,29 +31,17 @@ def System():
         faces = detector(gray)
         lastvalueofeyecontrol = eyeControlvalue
         eyeControlvalue = eyeControl(gray, faces,frame)
-        cv2.putText(frame,str(counter)+'blink number ',(0,400),font,1,(0,0,255),1)
-        cv2.putText(frame,'Do you want '+systemTupel[counter]+'?',(50,50),font,1,(255,0,0),1)
+        print(str(counter)+'  blink number')
+        print('Do you want '+systemTupel[counter]+'?')
         if eyeControlvalue == 1:
-            cv2.putText(frame,"Blinking",(50,150),font,1,(0,0,255),1)
             if situation:
                 situation = False
                 starttime=time.time()
-
-       
-        if eyeControlvalue == 0:
-            cv2.putText(frame,"not Blinking",(50,150),font,1,(0,0,255),1)
-         
-            
-        if eyeControlvalue == None:
-            cv2.putText(frame,'no eye contact',(50,150),font,1,(0,0,255),1)
        
         
         if situation:
-            cv2.putText(frame,'To start system just blink. You Have 10 second to make selecton:) ',(50,250),font,1,(0,0,255),1) 
+            print('To start system just blink. You Have 10 second to make selecton:)') 
 
-    
-        cv2.putText(frame,'To stop system press q ',(225,350),font,1,(0,0,255),1)
-        
         
         if (eyeControlvalue==1) and (lastvalueofeyecontrol==0):
             counter= counter +1
@@ -61,18 +49,15 @@ def System():
         if ((starttime+10)<time.time()):
             if(situation==False):
                 situation = True
+                print('YOUR SELECTİON İS   '+systemTupel[counter] )
+                time.sleep(5)
                 counter = 0
-        
-        
-        cv2.imshow('frame',frame)
-
-            
+                
+                
         if (time.time()>starttime+10):
             situation = True
-            
-            
-    cap.release()
-    cv2.destroyAllWindows()    
+                        
+    cap.release() 
     
     
 def changeSituation(situation,starttimesecond):
@@ -130,6 +115,8 @@ def eyeControl(gray, faces,frame):
 
 
 cap = cv2.VideoCapture(0)
+cap.set(3,320)
+cap.set(4,256)
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 systemTupel = ("Pear","Quince","Apple","Plum","Cocount","Fig","Banana","Watermelon","Melon","Apricot","Cherry","Kiwi","Meat","Poultry","Fish","Seafood","Waffle","Ham","Bread","Creal","Orange Juice" , "Muffin")
