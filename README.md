@@ -9,6 +9,6 @@ The project detects the amount of blink in spesific time and understand the mean
 
 <b>2.cv2</b>
 
-<b>3.math</b> 
+<b>3.dlib</b> 
 
 <b>4.time</b>
