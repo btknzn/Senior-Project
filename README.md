@@ -13,5 +13,6 @@ The project detects the amount of blink in spesific time and understand the mean
 
 <b>4.time</b>
 
+To understand our project, you can read final report of presentation from https://github.com/btknzn/Senior-Project/blob/master/ELE%20495%20Final%20Report.pdf and also you can read Report-1 and Report-2 for seeing the problem, which ı lived. 
 
 You can download senior project poster from https://github.com/btknzn/Senior-Project/blob/master/SeniorProjectPoster.ppt via cliking wiev rar.
