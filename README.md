@@ -12,3 +12,6 @@ The project detects the amount of blink in spesific time and understand the mean
 <b>3.dlib</b> 
 
 <b>4.time</b>
+
+
+You can download senior project poster from https://github.com/btknzn/Senior-Project/blob/master/SeniorProjectPoster.ppt via cliking wiev rar.
