@@ -20,3 +20,15 @@ You can download senior project poster from https://github.com/btknzn/Senior-Pro
  In this project, we trained landmarks detector via Dlib library and then we counted amount of blink. For traning dataset, it is supposed to download dlib library from https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/ and the code trained model after that the system count calculate whether the eye is or open or not and then the code counts blink amount in ten seconds and offers the desired food via eye blinking communcation.
  
  To better understanding, you could read the final report of presentation mentioned above.
+ 
+ System results
+ 
+ 
+ ![alt text](https://github.com/btknzn/Senior-Project/blob/master/systemoutput1.PNG)
+ 
+ 
+ ![alt text](https://github.com/btknzn/Senior-Project/blob/master/systemoutput2.PNG)
+ 
+ 
+ ![alt text](https://github.com/btknzn/Senior-Project/blob/master/systemoutput3.PNG)
+
