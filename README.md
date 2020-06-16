@@ -21,7 +21,7 @@ You can download senior project poster from https://github.com/btknzn/Senior-Pro
  
  To better understanding, you could read the final report of presentation mentioned above.
  
- System results
+ System results:
  
  
  ![alt text](https://github.com/btknzn/Senior-Project/blob/master/systemoutput1.PNG)
