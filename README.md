@@ -32,3 +32,4 @@ You can download senior project poster from https://github.com/btknzn/Senior-Pro
  
  ![alt text](https://github.com/btknzn/Senior-Project/blob/master/systemoutput3.PNG)
 
+You can find the last version of system( https://github.com/btknzn/Senior-Project/tree/master/projema%C4%B1n) , which is counting amount of blick on Image Frame and also after 10 seconds this system is going to show the desired food (picuture) 
